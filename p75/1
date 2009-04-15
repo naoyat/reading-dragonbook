@@ -1,0 +1,24 @@
+javac: 2 は無効なフラグです。
+使い方: javac <options> <source files>
+使用可能なオプションには次のものがあります。
+  -g                         すべてのデバッグ情報を生成する
+  -g:none                    デバッグ情報を生成しない
+  -g:{lines,vars,source}     いくつかのデバッグ情報だけを生成する
+  -nowarn                    警告を発生させない
+  -verbose                   コンパイラの動作についてメッセージを出力する
+  -deprecation               推奨されない API が使用されているソースの位置を出力する
+  -classpath <path>          ユーザクラスファイルを検索する位置を指定する
+  -cp <path>                 ユーザクラスファイルを検索する位置を指定する
+  -sourcepath <path>         入力ソースファイルを検索する位置を指定する
+  -bootclasspath <path>      ブートストラップクラスファイルの位置を置き換える
+  -extdirs <dirs>            インストール済み拡張機能の位置を置き換える
+  -endorseddirs <dirs>       推奨規格パスの位置を置き換える
+  -d <directory>             生成されたクラスファイルを格納する位置を指定する
+  -encoding <encoding>       ソースファイルが使用する文字エンコーディングを指定する
+  -source <release>          指定されたリリースとソースの互換性を保つ
+  -target <release>          特定の VM バージョン用のクラスファイルを生成する
+  -version                   バージョン情報
+  -help                      標準オプションの概要を出力する
+  -X                         非標準オプションの概要を出力する
+  -J<flag>                   <flag> を実行システムに直接渡す
+
